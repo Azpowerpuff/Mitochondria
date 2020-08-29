@@ -10101,7 +10101,7 @@ img::-moz-selection {
   color: #fed136;
 }
 
-@media (min-width:1000px) {
+@media (min-width:500px) {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -10114,7 +10114,7 @@ img::-moz-selection {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 200px;
+    height: 100px;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
