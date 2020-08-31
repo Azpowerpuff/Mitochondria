@@ -1,3 +1,8 @@
+<?php 
+$email = $_POST['email'];
+$body = "welcome to AzPOWERHOUSE --- created by az Powerpuff"
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,8 +10,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Agency - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <title>Az-PowerPuff</title>
+        <link rel="icon" type="image/x-icon" href="images/azpowerpuff4.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -20,13 +25,12 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="C:\Users\LENOVO\Desktop\AzPowerPuff\azpowerpuff2.png" alt="" /></a>
+                <a class="navbar-brand" href="#page-top">AzPowerPuffs<img src="images/azpowerpuff4.png" alt="" /></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ml-1"></i>
-                </button>
+                    <i class="fas fa-bars ml-1"></i></button>
+                    
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ml-auto">
+                    <ul class="navbar-nav text-sentencecase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">About Us</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a></li>
@@ -38,7 +42,7 @@
         <header class="masthead">
             <div class="container">
                 <div class="masthead-subheading">Become An Azure Sensei!</div>
-                <div class="masthead-heading text-uppercase">Subnetting Experts Extraordinaires</div>
+                <div class="masthead-heading text-uppercase">Subnetting and Azure DevOps Experts</div>
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Help me, abeg!</a>
             </div>
         </header>
@@ -80,7 +84,8 @@
         </section>
     -->
         <!-- Portfolio Grid-->
-       <!--
+        <!--
+       
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
@@ -242,50 +247,64 @@
         </section>
     -->
         <!-- Team-->
+        
         <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Meet The Experts</h2>
+                    <h3 class="section-subheading text-muted">The amazing people behind Az-PowerPuff</h3>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
-                            <h4>Kay Garland</h4>
-                            <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <img class="mx-auto rounded-circle" src="images/temitope.jpeg" alt="" />
+                            <h4>Temitope Adeleke</h4>
+                            <p class="text-muted">M65 Technical Support Engineer. Azure DevOps Expert. Azure Cloud Engineer. Microsoft LEAP Alumni</p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <img class="mx-auto rounded-circle" src="images/tomilere.jpeg" alt="" />
+                            <h4>Tomilere Ayodele</h4>
+                            <p class="text-muted">M365 Technical Support Engineer. Azure Cloud Engineer. Microsoft LEAP Alumni</p>
+                           
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
-                            <h4>Diana Petersen</h4>
-                            <p class="text-muted">Lead Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                            <img class="mx-auto rounded-circle" src="images/cece.jpeg" alt="" />
+                            <h4>Cynthia Duru</h4>
+                            <p class="text-muted">Azure Cloud Engineer. Andela Alumni. Microsoft LEAP Alumni</p>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="images/fridaws.jpeg" alt="" />
+                            <h4>Fridaws Salisu</h4>
+                            <p class="text-muted">Subnetting Expert. Azure Cloud Engineer. Microsoft LEAP Alumni</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="images/naomi.jpg" alt="" />
+                            <h4>Naomi Usman</h4>
+                            <p class="text-muted">Front End Developer. Digital Marketer. Azure Cloud Engineer. Microsoft LEAP Alumni</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="images/johnmark.jpeg" alt="" />
+                            <h4>Johnmark Obiefuna</h4>
+                            <p class="text-muted">Team Lead. Software Guru at Microsoft</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+         </div>
         </section>
+    -->
         <!-- Clients-->
+        <!--
         <div class="py-5">
             <div class="container">
                 <div class="row">
@@ -304,12 +323,13 @@
                 </div>
             </div>
         </div>
+    -->
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Talk to your Masters</h2>
+                    <h3 class="section-subheading text-muted">Register to become a Cloud Engineer</h3>
                 </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">
@@ -319,7 +339,7 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
+                                <input class="form-control"  name="email" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group mb-md-0">
@@ -345,7 +365,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
+                    <div class="col-lg-4 text-lg-left">Copyright © AzPowerPuffs 2020</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
