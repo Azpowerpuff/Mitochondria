@@ -1,6 +1,6 @@
 <?php 
 $email = $_POST['email'];
-$body = "welcome to AzPOWERHOUSE --- created by az Powerpuff"
+$body = "welcome to our AzPOWERHOUSE --- created by az Powerpuff"
 ?>
 
 <!DOCTYPE html>
